@@ -1,0 +1,10 @@
+# kumpul-quis1
+
+private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+      persegiHitung a = new persegiHitung();
+    int sisi = Integer.parseInt(jTextField1.getText());
+    int hasil = a.lPersegi(sisi);
+    
+    jLabel2.setText("Hasil ="+hasil);
+// TODO add your handling code here:
+    }                                        
